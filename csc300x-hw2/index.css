@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 body {
   background-image: url('resources/teodor-skrebnev-unsplash.jpg');
   background-color: #f8f9fa;
@@ -27,6 +20,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-h1, h3 {
+h1, h3, h5 {
   color: #fff;
 }
