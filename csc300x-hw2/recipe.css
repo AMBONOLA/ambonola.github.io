@@ -34,4 +34,13 @@ a {
   color: #a4a400;
 }
 
+blockquote {
+  margin: 0 50px 50px;
+  padding: 10px;
+  background-color: rgba(240, 240, 23, 0.452);
+  display: inline-block;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
 
