@@ -10,7 +10,11 @@
 }
 
 body {
+  background-image: url('/csc300x-hw2/resources/teodor-skrebnev-DcIZJsskTfg-unsplash.jpg');
   background-color: #f8f9fa;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
