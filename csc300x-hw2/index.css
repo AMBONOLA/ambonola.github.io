@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
 body {
   background-image: url('resources/teodor-skrebnev-unsplash.jpg');
   background-color: #f8f9fa;
@@ -9,6 +17,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 100vh;
 }
 
 .overlay {
@@ -22,4 +31,8 @@ body {
 
 h1, h3, h5 {
   color: #fff;
+}
+
+.container-fluid {
+  padding: 0;
 }
