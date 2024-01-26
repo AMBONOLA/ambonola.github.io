@@ -1,16 +1,20 @@
+#container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 body {
-  background-image: url('resources/silverware.jpg');
+  background-image: url("resources/silverware.jpg");
   background-color: #f0f0f0;
   color: #404040;
-  font-family: 'Georgia', 'Garamond', sans-serif;
+  font-family: "Georgia", "Garamond", sans-serif;
   font-size: 12pt;
 }
 
-
 h1.main-header {
-  color: #A4A400;
-  background-color: #F0F0F0;
-  font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif;
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
   text-decoration: underline;
   display: inline-block;
   font-size: 22pt;
@@ -22,9 +26,9 @@ h1.main-header {
 }
 
 h3 {
-  color: #A4A400;
-  background-color: #F0F0F0;
-  font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif;
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
   font-size: 18pt;
   text-decoration: underline;
   display: inline-block;
@@ -42,5 +46,3 @@ blockquote {
   width: calc(100% - 40px);
   box-sizing: border-box;
 }
-
-
