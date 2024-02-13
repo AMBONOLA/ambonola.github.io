@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#restaurants,
+#cafes,
+#bars {
+  height: 100%;
+}
+
+#bar {
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipOnLQ0h5LuDPS5fYt2SJ89kHwIUgfmSJcu_35YV=s1360-w1360-h1020");
+}
+
+#cafe {
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipNZ9DP5SmIQ6Wvq-wzEttwekbxuZ0pUTJjc2NFA=s680-w680-h510");
+}
+
+#restaurant {
+  background-image: url("https://static.wixstatic.com/media/4f3a73_fcaa8b9d17dd4c18afe9d14006f8d02e~mv2.jpg/v1/fill/w_443,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/backshot.jpg");
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  height: 550px;
+}
+
+.location::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.location h2,
+.location p {
+  position: relative;
+  z-index: 1;
+}
+
+.dish {
+  width: 30%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.dish img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.dish:hover img {
+  transform: scale(1.1);
+}
+
+.dish-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.dish:hover .dish-info {
+  transform: translateY(0);
+}
+
+.dish-info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
