@@ -34,3 +34,15 @@ img {
 h2 {
   margin-top: 20px;
 }
+
+.computer-throw {
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+section .results-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

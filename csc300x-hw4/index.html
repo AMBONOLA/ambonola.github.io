@@ -11,23 +11,29 @@
     <div>
       <section>
         <div class="image-container">
-          <img src="./resources/rock.PNG" alt="rock" />
+          <img src="./resources/rock.PNG" alt="rock" data-value="rock" />
 
-          <img src="./resources/paper.PNG" alt="paper" />
+          <img src="./resources/paper.PNG" alt="paper" data-value="paper" />
 
-          <img src="./resources/scissors.PNG" alt="scissors" />
+          <img
+            src="./resources/scissors.PNG"
+            alt="scissors"
+            data-value="scissors"
+          />
         </div>
         <h2>Your Throw</h2>
       </section>
       <section>
-        <div>
+        <div class="computer-throw">
           <img src="./resources/question-mark.PNG" alt="question-mark" />
         </div>
         <h2>Computer Throw</h2>
       </section>
       <section>
-        <div></div>
-        <h2>Results:</h2>
+        <div class="results-container">
+          <h2>Results:</h2>
+          <div id="results"></div>
+        </div>
       </section>
     </div>
   </body>
